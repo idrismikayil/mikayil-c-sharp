@@ -1,0 +1,7 @@
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\bin\Debug\Mikayil-C#.exe.config
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\bin\Debug\Mikayil-C#.exe
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\bin\Debug\Mikayil-C#.pdb
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\obj\Debug\Mikayil-C#.csproj.AssemblyReference.cache
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\obj\Debug\Mikayil-C#.csproj.CoreCompileInputs.cache
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\obj\Debug\Mikayil-C#.exe
+C:\Users\ASUS-TUF\source\repos\Mikayil-C#\Mikayil-C#\obj\Debug\Mikayil-C#.pdb
