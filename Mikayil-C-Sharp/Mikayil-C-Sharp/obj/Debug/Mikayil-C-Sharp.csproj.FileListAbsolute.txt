@@ -1,0 +1,7 @@
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\bin\Debug\Mikayil-C-Sharp.exe.config
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\bin\Debug\Mikayil-C-Sharp.exe
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\bin\Debug\Mikayil-C-Sharp.pdb
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\obj\Debug\Mikayil-C-Sharp.csproj.AssemblyReference.cache
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\obj\Debug\Mikayil-C-Sharp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\obj\Debug\Mikayil-C-Sharp.exe
+C:\Users\ASUS-TUF\Desktop\mikayil-c-sharp\Mikayil-C-Sharp\Mikayil-C-Sharp\obj\Debug\Mikayil-C-Sharp.pdb
