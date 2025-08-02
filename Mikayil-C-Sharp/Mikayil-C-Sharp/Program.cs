@@ -90,11 +90,17 @@ namespace Mikayil_C_Sharp
                     break;
                 }
 
-                if (int.TryParse(input, out int number))
+                string standardizedInput = input.Replace(',', '.');
+
+                if (double.TryParse(standardizedInput, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double number))
                 {
                     if (number > 7)
                     {
                         Console.WriteLine("Result: Hello");
+                    }
+                    else if (number == 7)
+                    {
+                        Console.WriteLine("Result: The entered number is equal to 7.");
                     }
                     else
                     {
@@ -103,7 +109,7 @@ namespace Mikayil_C_Sharp
                 }
                 else
                 {
-                    Console.WriteLine("Result: Invalid input. Please enter a valid integer.");
+                    Console.WriteLine("Result: Invalid input. Please enter a valid number.");
                 }
             }
         }
@@ -139,11 +145,12 @@ namespace Mikayil_C_Sharp
         {
             Console.Clear();
             Console.WriteLine("--- Find Multiples of 3 ---");
+            Console.WriteLine("Please enter integers separated by commas or spaces (e.g., 1,2,3,4,5,6 or 1 2 3 4 5 6)");
             Console.WriteLine("Type 'exit' or 'q' to go back.");
 
             while (true)
             {
-                Console.Write("\nPlease enter integers separated by commas (e.g., 1,2,3,4,5,6): ");
+                Console.Write("\nvalues: ");
                 string input = Console.ReadLine();
 
                 if (input.ToLower() == "q" || input.ToLower() == "exit")
@@ -151,19 +158,25 @@ namespace Mikayil_C_Sharp
                     break;
                 }
 
-                string[] numberStrings = input.Split(',');
+                string[] numberStrings = input.Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
                 Console.WriteLine("Numbers that are multiples of 3:");
 
                 bool foundMultipleOf3 = false;
                 foreach (string s in numberStrings)
                 {
-                    if (int.TryParse(s.Trim(), out int num))
+                    string trimmedValue = s.Trim();
+                    if (int.TryParse(trimmedValue, out int num))
                     {
                         if (num % 3 == 0)
                         {
                             Console.WriteLine(num);
                             foundMultipleOf3 = true;
                         }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Invalid value: {trimmedValue}");
                     }
                 }
 
